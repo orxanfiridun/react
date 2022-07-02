@@ -1,0 +1,22 @@
+.price-container{
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+}
+.price-container button{
+    padding: 5px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    background-color: transparent;
+    color: rgb(20, 20, 20);
+    transition: 0.6s;
+}
+.price-container button:hover{
+    background-color: black;
+    color: white;
+}
+.price-container span{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+}

@@ -1,0 +1,29 @@
+.maincontainer {
+    width: 80%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftcontainer {
+    width: 30%;
+}
+
+.leftcontainer img {
+    width: 100%;
+}
+
+.rightcontainer {
+    width: 66%;
+}
+
+.rightcontainer h2 {
+    font-size: 32px;
+    color: darkblue;
+}
+
+.rightcontainer p {
+    font-size: 20px;
+    margin-top: 20px;
+    color: gray;
+}
