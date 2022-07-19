@@ -1,0 +1,53 @@
+.side-container{
+    position: relative;
+    width: 20%;
+    text-align: center;
+}
+.side-container img{
+    position: absolute;
+    height: 620px;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    width: 100%;
+    opacity: 0.6;
+}
+.side-container button{
+    border-radius: 10px;
+    padding: 10px 30px;
+    background-color: darkviolet;
+    color: white;
+    border: 0;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 550px;
+}
+.main-container{
+    display: flex;
+}
+.inner-container{
+    width: 60%;
+    padding: 20px;
+}
+.inner-container table{
+    width: 100%;
+    
+}
+.inner-container table th{
+  font-size: 22px;
+  color: white;
+  border:2px solid white;
+  padding: 8px;
+}
+.inner-container table td{
+  font-size: 20px;
+  color: lightgray;
+  padding: 6px; 
+  border: 1px solid white;
+  transition: 0.6s;
+  text-align: center;
+}
+.inner-container table td:hover{
+    background-color: white;
+    color:black
+}

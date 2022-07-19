@@ -1,0 +1,8 @@
+.main-container{
+    width: 75%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,19 @@
+.footer{
+    width: 100%;
+    background-color: rgb(103,93,93);
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+.footer h2{
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+.footer p{
+    font-size: 22px;
+    margin: 10px;
+}
+.footer a{
+    color: aqua;
+    text-decoration: none;
+}

@@ -1,0 +1,51 @@
+.navigation {
+    width: 100vw;
+    display: flex;
+    height: auto;
+    list-style: none;
+}
+
+.navigation button {
+    width: 25%;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    border: 0;
+    font-size: 20px;
+    padding: 8px;
+    font-weight: bold;
+    transition: 0, 6s;
+
+}
+
+.navigation button:hover {
+    background-color: darkblue !important;
+
+}
+.info-container{
+    background-color: darkblue;
+    padding: 35px 75px;
+    position: absolute;
+    bottom: 700px;
+    z-index: 0;
+    /* animation: slideDown 1s; */
+}
+.info-container h2{
+    font-size: 32px;
+    color: white;
+}
+.info-container hr{
+    margin: 20px 0;
+}
+.info-container p{
+    font-size: 20px;
+    color: lightgray;
+}
+@keyframes slideDown{
+    from{bottom: 700px}
+    to{bottom: 352px}
+}
+@keyframes slideUp{
+    from{bottom: 352px}
+    to{bottom: 700px}
+}

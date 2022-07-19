@@ -1,0 +1,26 @@
+.items-container{
+   width: 90%;
+   display: flex;
+   flex-wrap: wrap;
+   margin: 50px auto;
+}
+.items-container div{
+   width: 24%;
+   margin: 0.5%;
+   border: 1px solid lightgray;
+   text-align: center;
+   padding: 35px 15px ;
+}
+.items-container div h2{
+    font-size: 28px;
+    color: darkblue;
+    margin-bottom: 12px;
+}
+.items-container div p{
+    font-size: 18px;
+    color: gray;
+
+}
+.items-container div hr{
+      margin: 10px 25px;
+}

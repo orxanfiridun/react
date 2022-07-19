@@ -1,0 +1,16 @@
+.item-container{
+     border: 2px solid darkblue;
+     text-align: center;
+     padding-left: 15px 25px;
+     width: 32%;
+     margin: 0.666%;
+}
+.item-container p{
+    color: darkblue;
+    font-weight: bold;
+    font-size: 18px;
+}
+.item-container hr{
+    margin: 18px;
+    border-color: blue;
+}
